@@ -1,7 +1,7 @@
 window.addEventListener("load", () => {  //after the content is loaded the code in here is gonna run
     const sounds = document.querySelectorAll(".sounds"); //to get each sound from our index.html , all sounds are stored here
     const pads = document.querySelectorAll(".pads div"); // we can also store pads in here and get all the div's
-    const visual = document.querySelectorAll(".visual");
+    const visual = document.querySelector(".visual");
     const colors = [
         "black",
         "purple", 
